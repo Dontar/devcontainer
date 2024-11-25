@@ -1,15 +1,13 @@
 
-# Hello, World! (hello)
+# VSCodium REH (vscodium-reh)
 
-A hello world feature
+VSCodium remote server
 
 ## Example Usage
 
 ```json
 "features": {
-    "ghcr.io/devcontainers/feature-starter/hello:1": {
-        "version": "latest"
-    }
+    "ghcr.io/Dontar/devcontainer/vscodium-reh:0": {}
 }
 ```
 
@@ -17,10 +15,11 @@ A hello world feature
 
 | Options Id | Description | Type | Default Value |
 |-----|-----|-----|-----|
-| greeting | Select a pre-made greeting, or enter your own | string | hey |
+| connectionToken | VSCodium remote server Auth token | string | 1234 |
+| serverPort | VSCodium remote server listening port | string | 11111 |
 
 
 
 ---
 
-_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/devcontainers/feature-starter/blob/main/src/hello/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
+_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/Dontar/devcontainer/blob/main/src/vscodium-reh/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
