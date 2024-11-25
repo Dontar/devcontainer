@@ -1,0 +1,22 @@
+{
+    "name": "VSCodium REH",
+    "id": "vscodium-reh",
+    "version": "0.0.1",
+    "description": "VSCodium remote server",
+    "options": {
+        "connectionToken": {
+            "type": "string",
+            "default": "1234",
+            "description": "VSCodium remote server Auth token"
+        },
+        "serverPort": {
+            "type": "string",
+            "default": "11111",
+            "description" : "VSCodium remote server listening port"
+        }
+    },
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/common-utils"
+    ],
+    "entrypoint": "/usr/local/share/reh-init.sh"
+}

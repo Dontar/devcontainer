@@ -1,0 +1,6 @@
+.github/workflows/
+src/color/
+src/hello/
+test/_global/
+test/color/
+test/hello/
