@@ -26,6 +26,7 @@ tee /usr/local/share/reh-init.sh > /dev/null \
 #!/usr/bin/env bash
 
 ~/.vscodium-server/bin/current/bin/codium-server \
+    --host 0.0.0.0 \
     --port ${SERVERPORT:-"11111"} \
     --telemetry-level off \
     --connection-token ${CONNECTIONTOKEN:-"1234"}
