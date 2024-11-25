@@ -1,7 +1,7 @@
 {
     "name": "VSCodium REH",
     "id": "vscodium-reh",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "VSCodium remote server",
     "options": {
         "connectionToken": {
